@@ -1,9 +1,9 @@
 name: T5G2P
 
 # Dataset info
-train_manifest: ???
-validation_manifest: ???
-test_manifest: null
+train_manifest: content/train_manifest.json
+validation_manifest: content/val_manifest.json
+test_manifest: content/test_manifest.json
 do_training: True
 do_testing: False
 pretrained_model: null # path to .nemo file or model name from list_available_models()
